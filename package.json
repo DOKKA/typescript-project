@@ -1,0 +1,21 @@
+{
+  "name": "typescript-project",
+  "version": "1.0.0",
+  "description": "A typescript test project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/App.js",
+    "build": "tsc",
+    "dev": "tsc --watch & nodemon dist",
+    "test": "tsc && mocha dist/**/*.spec.js",
+    "tsc": "tsc",
+    "watch-ts": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mocha": "^2.2.44",
+    "@types/node": "^8.0.53",
+    "mocha": "^4.0.1"
+  }
+}
